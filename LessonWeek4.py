@@ -12,4 +12,4 @@ df_temp=df.head()
 df_new=df_temp.drop(columns=['sex','age'])
 #print(df_new)
 df_new.loc[:,'BMI']=(df_new['Weight']/(df_new['Height']*df_new['Height']))*703
-print(df_new)
+# print(df_new)
